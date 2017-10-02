@@ -1,0 +1,248 @@
+.banner {
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ),url(../img/coffee.jpg);
+    color: white;
+    padding-bottom: 700px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    background-attachment: fixed;
+
+}
+
+.tech {
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ),url(../img/office-972624_640.jpg);
+    padding-bottom: 500px;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.sticky {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #34495e;
+    z-index: 10;
+    transition: all 0.5s ease;
+  
+
+}
+.sticky .main-navigation {
+    margin-top: 10px;
+}
+
+.sticky .logo {
+  
+}
+
+.main-navigation {
+    float: right;
+    color: white;
+    word-spacing: 40px;
+    padding-right: 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding-top: 10px;
+}
+
+.main-navigation li {
+    display: inline-block;
+    text-decoration: none;
+    list-style: none;
+    
+}
+.main-navigation a {
+    text-decoration: none;
+    color: white;
+    
+}
+
+.main-navigation img {
+    float: left;
+}
+
+
+.sticky .main-navigation li a:link,
+.sticky .main-navigation li a:visited {
+    padding: 15px 0;
+    color: white;
+}
+.logo{
+    height: 70px;
+    width: auto;
+    float: left;
+    margin-top: 10px;
+    padding-left: 20px;
+}
+
+.logo-black {
+	height: 50px;
+	width: auto;
+	float: left;
+	margin: 5px 0;
+	display: none; /* Not visible in normal state*/
+}
+
+
+
+.sticky .logo-black {
+    display: block;
+}
+
+.mobile-nav-icon {
+	float: right;
+	margin-top: 30px;
+	cursor: pointer;
+	display: none;
+}
+
+.mobile-nav-icon i{
+	font-size: 2em;
+	color: #fff;
+}
+
+
+
+.banner h2 {
+    padding-top: 50px;
+    letter-spacing: 6px;
+    font-family: 'Acme', sans-serif;
+    
+}
+
+.banner h1 {
+    font-family: 'Acme', sans-serif;
+    text-transform: uppercase;
+    padding-top: 200px;
+    letter-spacing: 7px;
+    padding-left: 20px;
+   
+    
+}
+
+
+.banner p {
+    text-transform: uppercase;
+    padding-left: 40px;
+    letter-spacing: 2px;
+
+}
+
+.about {
+    margin-top: 60px;
+}
+
+.about h1 {
+    text-align: center;
+    font-family: 'Acme', sans-serif;
+    padding-top: 20px;
+    letter-spacing: 5px;
+}
+
+.about p {
+    text-align: center;
+    margin-top: 20px;
+    font-family: 'Acme', sans-serif;
+    margin-bottom: 100px;
+    
+}
+
+
+
+.about h2 {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 20px;
+    padding-left: 65px;
+}
+.code {
+    padding-left: 50px;
+}
+
+
+
+.projects h2{
+    text-align: center;
+    font-family: 'Acme', sans-serif;
+    letter-spacing: 4px;
+   padding-top: 50px;
+   padding-bottom: 150px;
+    
+    
+}
+.projects {
+    background-color: #ecf0f1;
+    padding-bottom: 200px;
+}
+
+
+.projects caption {
+    display: block;
+}
+
+.contact {
+    background: #2c3e50;
+    padding-bottom: 250px;
+}
+
+.contact h1 {
+    font-family: 'Acme', sans-serif;
+    padding-top: 120px;
+    padding-bottom: 30px;
+    letter-spacing: 4px;
+    color: white;
+
+}
+
+.contact p {
+    padding-bottom: 150px;
+    display: inline;
+    color: white;
+    font-family: 'Acme', sans-serif;
+    letter-spacing: 1px;
+    word-spacing: 5px;
+    font-size: 20px;
+   
+}
+
+
+.facebook {
+    width: 20%;
+    margin-top: 180px;
+   margin-left: 150px;
+}
+
+.github {
+    width: 20%;
+    margin-top: 180px;
+    margin-left: 150px;
+}
+
+footer {
+    background:#ecf0f1;
+    padding: 100px;
+
+}
+
+
+
+
+
+footer h1 {
+  
+    padding-top: 30px;
+    font-size: 20px;
+}
+
+footer h2 {
+    
+    font-size: 20px;
+    padding-top: 50px;
+    padding-left: 300px;
+
+}
+
+.copy {
+ 
+    text-align: center;
+}
